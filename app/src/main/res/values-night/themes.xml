@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Malure" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/malure</item>
+        <item name="colorPrimaryVariant">@color/malure</item>
+        <item name="colorOnPrimary">@color/malure</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/malure</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground">@color/malure</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

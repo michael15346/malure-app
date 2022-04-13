@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Malure</string>
+    <string name="bird_places_near_you">Птичьи места рядом с вами</string>
+    <string name="bird_place_desc">Изображение птичьего места</string>
+    <string name="distance">%1$d км от вас</string>
+    <string name="place_name">Владимир Жириновский</string>
+    <string name="bird_search">Найти птицу</string>
+    <string name="library">Библиотека</string>
+    <string name="guide">Гид</string>
+    <string name="bird_search_in_progress">Идёт поиск птицы…</string>
+    <string name="when_to_find">Когда можно найти здесь:</string>
+    <string name="where_to_find">Где найти:</string>
+    <string name="feeder">Что положить в кормушку:</string>
+    <string name="nesting">Где гнездится:</string>
+    <string name="social">Социализация:</string>
+    <string name="habitat">Ареал:</string>
+    <string name="migration">Миграционный статус:</string>
+    <string name="yearly">В течение года:</string>
+    <string name="popular_birds">Популярные птицы:</string>
+    <string name="rare_sights">Редкие гости:</string>
+    <string name="wrong_season" />
+</resources>

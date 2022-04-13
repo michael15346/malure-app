@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1255" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_bird.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_bird_circle.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_bird_circle_huge.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_greenmic.xml" value="0.137" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_icon_rounded.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_launcher.xml" value="0.1255" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_malure.xml" value="0.137" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_malure_encircled.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_outline_arrow_back_ios_new_24.xml" value="0.125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_outline_mic_none_24.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_outline_mic_none_24_green.xml" value="0.125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_outline_tour_24.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/ic_search_rounded.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/launch_screen.xml" value="0.2265" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/drawable/park_image.xml" value="0.1255" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/font/montserrat_alt_bold.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout-v21/activity_search.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout-v21/bird_item.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/activity_bird.xml" value="0.31176470588235294" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/activity_library.xml" value="0.6" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/activity_place_page.xml" value="0.8" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/activity_results.xml" value="0.27346938775510204" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/activity_search.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/bird_item.xml" value="0.45505097312326226" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/bird_results_item.xml" value="0.5075757575757576" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/dossier_item.xml" value="0.6" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/place_card.xml" value="0.969758064516129" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/layout/place_card_item.xml" value="0.536" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1255" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Malure/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1255" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
