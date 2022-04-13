@@ -69,35 +69,7 @@ class Search : AppCompatActivity() {
                     ) -> {
                         val bufSize = 480000
                         binding.searchImage.setOnClickListener(null)
-                        var ar: AudioRecord
-                        if (SDK_INT >= android.os.Build.VERSION_CODES.R){
-                            try{
-
-                                ar = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_OPUS, bufSize)
-                            }
-                            catch(e: Exception){ Log.d("RECORDER", "Failed to record in Opus at 48kHz")
-                                try{
-                                    ar = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_AAC_LC, bufSize)
-                                }
-                                catch(ex: Exception){
-                                    Log.d("RECORDER", "Failed to record in AAC at 48kHz")
-                                    ar = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, bufSize)
-                                }
-                            }
-                        }
-                        else if (SDK_INT >= android.os.Build.VERSION_CODES.P){
-                            try{
-
-                                ar = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_AAC_LC, bufSize)
-                            }
-                            catch(e: Exception){
-                                Log.d("RECORDER", "Failed to record in AAC LC at 48kHz")
-                                ar = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, bufSize)
-                            }
-                        }
-                        else {
-                            ar = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, bufSize)
-                        }
+                        val ar: AudioRecord = AudioRecord(MediaRecorder.AudioSource.MIC, 48000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, bufSize)
                         binding.searchProgressText.setText(R.string.bird_search_in_progress)
                         model.getSearchResults(ar, bufSize).observe(this, Observer<MutableMap<String, Double>>{birds ->
                             Log.d("MainThread", birds.toString())
